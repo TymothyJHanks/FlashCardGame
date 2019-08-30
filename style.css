@@ -1,0 +1,77 @@
+
+body{
+background-image: url(./background.jpg);
+background-attachment: fixed;
+background-size: contain;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 300px;
+    margin: 0 30px;
+}
+
+
+.gameboard{
+    display: grid;  
+    grid-template-columns: auto auto auto;
+    padding:10px;
+}
+
+.cards{
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px dotted wheat;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+#startButton{
+    position: absolute;
+    color: white;
+    font-size: 8px;
+    margin-left: 625px;
+    padding-top: 70px;
+}
+
+.refresh {
+background: transparent;
+border-style: none;
+}
+
+
+#startGame {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+
+    text-align: center;
+    
+    
+}
+/* #replacing {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+
+    text-align: center;
+    
+    
+} */
+
+/* #nflTitle{
+    margin-bottom: 3px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+} */
