@@ -81,29 +81,3 @@ clickCards(card6, "Answer: Walter Payton - During his reign in the 70's and 80's
 clickCards(card7, "Answer: Cowhide - According to Wilson Football, the official ball makers for the NFL, one cowhide can produce approximately 10 footballs. ")
 clickCards(card8, "Answer: Yellow - More information: High schools, colleges and the NFL tend to use some shade of yellow for goal posts.")
 clickCards(card9, "Answer: 22 - There are 22 players, 11 on offense and 11 on defense.")
-
-
-
-
-
-// //Lone function
-// function ReplaceContentInHTMLContainer (id, content) {
-//     let container = document.getElementById(id);
-//     container.innerHTML = content;
-// }
-
-
-// // This is the looping for the content off the first page so all i need to do is create references to the gamebord and plug them in
-// ReplaceContentInHTMLContainer("replacing", 'Simon');
-// function CountdownTimer () {
-//     if (number > 1) {
-//         number--;
-//         ReplaceContentInHTMLContainer ("firstPageContent", "Inspired and Created By");
-//     } else {
-//         clearInterval(timerID);
-//         // log("more stuff")
-//         ReplaceContentInHTMLContainer ("firstPageContent", "Tymothy J Hanks");
-//         //The game board function goes here so it will display last
-//     };
-//     //make an entire div class around the entire project and project it once its the time to
-// }
